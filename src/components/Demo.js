@@ -16,7 +16,7 @@ export default class Demo extends React.Component {
 
   render() {
     return (
-      <div style={{textAlign:center, marginTop: 150}}>
+      <div style={{textAlign:"center", marginTop: 150}}>
         {this.state.title}
       </div>
     );
