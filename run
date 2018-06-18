@@ -1,0 +1,2 @@
+yarn build
+cordova emulate ios --target="iPhone-8, 11.3"

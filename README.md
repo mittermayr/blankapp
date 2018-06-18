@@ -1,0 +1,1 @@
+Start with a `yarn install` and that should get you close. Then make sure you do a `grep -R 'blankapp' .` to see where you will have to change the file and/or app name. Finally, go through `config.xml` as well as `package.json` to modify all necessary details and keys, and same goes for `build.json` which should contain your provisioning profiles and team IDs for iOS.

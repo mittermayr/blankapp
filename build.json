@@ -1,0 +1,16 @@
+{
+  "ios": {
+    "debug": {
+      "provisioningProfile": "",
+      "codeSignIdentity": "iPhone Developer",
+      "packageType": "development",
+      "developmentTeam": ""
+    },
+    "release": {
+      "provisioningProfile": "",
+      "codeSignIdentity": "iPhone Distribution",
+      "packageType": "app-store",
+      "developmentTeam": ""
+    }
+  }
+}

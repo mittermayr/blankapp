@@ -1,0 +1,1 @@
+watchify -t [ babelify --presets [ env react ] ] -t [ browserify-css ] src/index.js -o www/js/bundle.js
