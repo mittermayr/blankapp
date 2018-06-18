@@ -10,4 +10,4 @@ Also, run `cordova platform add ios android` **AFTER YOU HAVE CHANGED YOUR APP N
 # Testing your setup
 
 1. Run `yarn build` and see if that works. A `bundle.js` will be placed in `www/js`
-2. Run `cordova emulate ios` to see if it fires off in the iOS Simulator.
+2. Run `yarn build` then `cordova prepare ios` and finally, `cordova emulate ios` to see if it fires off in the iOS Simulator.
